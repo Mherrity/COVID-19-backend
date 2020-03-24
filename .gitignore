@@ -1,0 +1,7 @@
+.env
+/Lib
+/Scripts
+/__pycache__
+*.pyc
+*.cfg
+*.pyd
