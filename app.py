@@ -15,6 +15,8 @@ md=DataParser()
 def get_country_data():
     return dict_response(md.Country_Data)
 
-
+@app.route('/data/state-data',methods=['POST','GET'])
+def get_state_data():
+    return dict_response(md.State_Data)
 
 app.run(debug=True)
